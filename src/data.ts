@@ -16,8 +16,8 @@ export const MODEL_DATA = {
     followers: "",
   },
   contact: {
-    email: "aarthiramadass@example.com",
-    phone: "Contact via email",
+    email: "aarthiramadass11@gmail.com",
+    phone: "9345109201",
   },
   portfolio: [
     { id: "p1", category: "Gallery", src: "/photo_1.jpeg", title: "" },

@@ -3,7 +3,7 @@ import { MODEL_DATA } from '../data';
 
 export default function Hero() {
   return (
-    <section className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-[#0A0908] text-[#F4F1ED]" id="home">
+    <section className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-canvas text-text-primary" id="home">
       {/* Background Image */}
       <motion.div
         initial={{ scale: 1.1, opacity: 0 }}
@@ -15,9 +15,9 @@ export default function Hero() {
           src="/photo_10.jpeg"
           alt="Aarthi Ramadass - Hero"
           referrerPolicy="no-referrer"
-          className="w-full h-full object-cover object-[center_60%] opacity-60 sepia-[0.2]"
+          className="w-full h-full object-cover object-[center_60%] opacity-100"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0A0908] via-[#0A0908]/40 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-canvas/40 to-transparent"></div>
       </motion.div>
 
       {/* Content */}
@@ -40,10 +40,10 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 1 }}
             className="max-w-md"
           >
-            <p className="text-[10px] tracking-[0.3em] uppercase text-white/50 mb-4 opacity-60">
+            <p className="text-[10px] tracking-[0.3em] uppercase text-black mb-4">
               {MODEL_DATA.title}
             </p>
-            <p className="text-sm text-white/60 leading-relaxed font-light mb-8 max-w-sm">
+            <p className="text-sm text-black leading-relaxed font-light mb-8 max-w-sm">
               {MODEL_DATA.tagline}
             </p>
           </motion.div>
@@ -55,8 +55,8 @@ export default function Hero() {
              className="flex items-center gap-6"
           >
              <a href="#portfolio" className="group flex items-center gap-2 cursor-pointer">
-                <span className="text-[10px] uppercase tracking-[0.3em] text-white opacity-70 group-hover:opacity-100 transition-colors">Explore</span>
-                <span className="w-10 h-[1px] bg-white opacity-70 group-hover:w-16 group-hover:opacity-100 transition-all duration-300"></span>
+                <span className="text-[10px] uppercase tracking-[0.3em] text-black opacity-80 group-hover:opacity-100 group-hover:text-[#F2DDE5] transition-colors">Explore</span>
+                <span className="w-10 h-[1px] bg-black opacity-80 group-hover:w-16 group-hover:opacity-100 group-hover:bg-[#F2DDE5] transition-all duration-300"></span>
              </a>
           </motion.div>
         </div>

@@ -4,12 +4,34 @@
 @theme {
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-serif: "Playfair Display", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+
+  --color-canvas: #FFFDFC;
+  --color-ivory: #FAF6F2;
+  --color-porcelain: #F8EEF1;
+  --color-stone: #F2DDE5;
+  --color-taupe: #EAD9C8;
+  --color-gold: #C88FA0;
+  --color-gold-hover: #B88B9A;
+  --color-charcoal: #7E5E6D;
+  --color-graphite: #6E6267;
+  --color-pure-black: #2A2326;
+  
+  --color-text-primary: #2A2326;
+  --color-text-secondary: #6E6267;
+  --color-text-muted: #B88B9A;
+  --color-text-disabled: #E8DDE2;
+
+  --color-bg-elevated: #F7EFF2;
+  --color-glass: rgba(255, 255, 255, 0.72);
+  
+  --color-border-light: #F7EFF2;
+  --color-border-medium: #E8DDE2;
 }
 
 body {
   font-family: var(--font-sans);
-  background-color: #0A0A0A;
-  color: #fff;
+  background-color: var(--color-canvas);
+  color: var(--color-text-primary);
   overscroll-behavior-y: none;
 }
 
@@ -18,6 +40,6 @@ html {
 }
 
 ::selection {
-  background-color: #333;
+  background-color: var(--color-gold);
   color: #fff;
 }
