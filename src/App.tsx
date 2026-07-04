@@ -35,7 +35,7 @@ export default function App() {
               transition={{ duration: 0.8 }}
               className="text-4xl tracking-tighter italic font-serif mb-4"
             >
-              AS
+              AR
             </motion.div>
             <div className="w-48 h-[1px] bg-white/10 relative overflow-hidden">
                <motion.div 
@@ -60,7 +60,7 @@ export default function App() {
 
       <footer className="py-12 bg-[#0A0A0A] border-t border-white/5 text-center px-6">
          <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
-            <div className="text-2xl font-serif tracking-tighter italic">AS</div>
+            <div className="text-2xl font-serif tracking-tighter italic">AR</div>
             <div className="text-[10px] tracking-[0.3em] uppercase opacity-40">
                &copy; {new Date().getFullYear()} {MODEL_DATA.name}. All rights reserved.
             </div>

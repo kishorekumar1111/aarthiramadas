@@ -12,10 +12,10 @@ export default function Hero() {
         className="absolute inset-0 z-0"
       >
         <img
-          src="/img7.jpeg"
-          alt="Adithya S - Hero"
+          src="/photo_10.jpeg"
+          alt="Aarthi Ramadass - Hero"
           referrerPolicy="no-referrer"
-          className="w-full h-full object-cover object-[center_20%] opacity-50 sepia-[0.2]"
+          className="w-full h-full object-cover object-[center_60%] opacity-60 sepia-[0.2]"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[#0A0908] via-[#0A0908]/40 to-transparent"></div>
       </motion.div>

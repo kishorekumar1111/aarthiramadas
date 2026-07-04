@@ -19,10 +19,10 @@ export default function AboutStats() {
           </h2>
           <div className="space-y-6 text-sm text-white/60 leading-relaxed font-light mb-12 max-w-lg">
             <p>
-              Based in Coimbatore, Adithya S brings a strong, elegant, and versatile presence to every set. Recognized with the Vogue Modeling 2026 Fashion Icon Award, he has solidified his position in the industry, adapting seamlessly across a wide range of styles.
+              Based in Coimbatore and Mayiladuthurai, Aarthi Ramadass brings a strong, elegant, and versatile presence to every set. Recognized with the Vogue Modeling 2026 Fashion Icon Award, she has solidified her position in the industry, adapting seamlessly across a wide range of styles.
             </p>
             <p>
-              His dynamic look effortlessly transitions from editorial fashion and e-commerce campaigns to cinematic storytelling, highlighted by his upcoming 2025 supporting role in film. It's not just about wearing the garment; it's about inhabiting the narrative.
+              Her dynamic look effortlessly transitions from editorial fashion and e-commerce campaigns to cinematic storytelling, highlighted by her upcoming 2025 supporting role in film. It's not just about wearing the garment; it's about inhabiting the narrative.
             </p>
           </div>
           

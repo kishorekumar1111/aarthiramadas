@@ -29,7 +29,7 @@ export default function Navigation() {
       )}>
         <div className="w-full max-w-7xl mx-auto px-6 flex items-center justify-between">
           <a href="#home" className="text-white text-2xl font-serif tracking-tighter italic">
-            AS
+            AR
           </a>
 
           {/* Desktop Nav */}
@@ -73,7 +73,7 @@ export default function Navigation() {
             className="fixed inset-0 z-[60] bg-black flex flex-col"
           >
             <div className="p-6 flex justify-between items-center border-b border-white/10">
-              <span className="text-white text-2xl font-serif tracking-tighter italic">AS</span>
+              <span className="text-white text-2xl font-serif tracking-tighter italic">AR</span>
               <button 
                 onClick={() => setMobileMenuOpen(false)}
                 className="text-white text-3xl font-light leading-none"
